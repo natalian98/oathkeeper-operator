@@ -12,8 +12,6 @@ on:
     secrets:
       CHARMCRAFT_CREDENTIALS:
         required: true
-      GITHUB_TOKEN:
-        required: true
   workflow_dispatch:
     inputs:
       charmcraft_channel:
